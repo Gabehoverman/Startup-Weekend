@@ -1,0 +1,58 @@
+﻿@model IEnumerable<WebApplication1.Models.Profile>
+@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    var user = await UserManager.GetUserAsync(User);
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.firstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.lastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.age)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.age)
+            </td>
+            <td>
+               
+
+                    @if (SignInManager.IsSignedIn(User) && user.profile ==item )
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a><span> |</span>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a><span> |</span>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+</td>
+        </tr>
+}
+    </tbody>
+</table>
