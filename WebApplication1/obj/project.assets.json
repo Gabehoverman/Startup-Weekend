@@ -30396,10 +30396,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/WebApplication1.csproj",
+      "projectUniqueName": "/Users/GabeHoverman/Startup-Weekend/WebApplication1/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "/Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/WebApplication1.csproj",
-      "outputPath": "/Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/obj",
+      "projectPath": "/Users/GabeHoverman/Startup-Weekend/WebApplication1/WebApplication1.csproj",
+      "outputPath": "/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -30434,7 +30434,7 @@
           },
           "bootstrap": {
             "target": "Package",
-            "version": "[3.3.7, )"
+            "version": "3.3.7"
           }
         },
         "imports": [

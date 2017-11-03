@@ -23,3 +23,16 @@ C:/Users/Admin/Desktop/WebApplication1/WebApplication1/obj/Debug/netcoreapp2.0/W
 /Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.dll
 /Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.pdb
 /Users/GabeHoverman/Desktop/Asp.net-Core-Crud-App-with-Identity-master/WebApplication1/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/WebApplication1.deps.json
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/WebApplication1.runtimeconfig.json
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/WebApplication1.runtimeconfig.dev.json
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/WebApplication1.dll
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/bin/Debug/netcoreapp2.0/WebApplication1.pdb
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.csprojResolveAssemblyReference.cache
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.csproj.CoreCompileInputs.cache
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.AssemblyInfoInputs.cache
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.AssemblyInfo.cs
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.dll
+/Users/GabeHoverman/Startup-Weekend/WebApplication1/obj/Debug/netcoreapp2.0/WebApplication1.pdb

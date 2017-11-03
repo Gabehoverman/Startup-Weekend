@@ -1,1 +1,29 @@
-Main Repo 
+##Startup Weekend 2017 Repo
+
+
+To get up and running
+_____________________
+
+
+###1. Clone the Repo
+
+Clone the repository into your local machine using your favorite git client.
+
+
+###2. Set Up SQL Server
+
+Set up SQL server on your local machine, and add your connection string to the appsettings.json file in the project.
+
+
+###3. Restore Dependencies.
+
+Open your terminal and cd into the project directory. Run "dotnet restore" to build the depencies for the project.
+
+
+###4. Run Migrations
+
+While you're still cd'd into the project directory, run "dotnet ef database update" to migrate the database.
+
+####5. Run The App
+
+You're all ready to run the app.
